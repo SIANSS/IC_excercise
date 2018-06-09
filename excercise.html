@@ -22,17 +22,27 @@
         </ul>
       </div>
     </div>
+
+    <!-- This is incomplete  -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> MENUS <span class="glyphicon glyphicon-plus"></a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-wrench"></span>SETTINGS</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-menu-hamburger" ></span> MENUS  <span class="glyphicon glyphicon-plus"></a>
+          <ul class="dropdown-menu stylus-drp-li">
+            <li>Menu 1</li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 2 <span class="glyphicon glyphicon-plus"></span></a>
+              <ul class="dropdown-menu stylus-drp-li">
+                <li>Menu 1</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> SETTINGS</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> CONTACT</a></li>
       </ul>
+
     </div>
   </nav>
-
-
   </body>
 </html>

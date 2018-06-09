@@ -5,3 +5,35 @@
 #drp-btn{
   background-color:  #ff3333;
 }
+.stylus-drp-li{
+  border: 1px solid #00ace6 !important;
+  width: 200px;
+  height: 120px;
+  background-color: #00ace6 !important;
+}
+.stylus-drp-li > li{
+  display: block;
+  min-height: 60px;
+}
+.stylus-drp-li > li:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-menau{
+  list-style-type: none;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: #00ace6;
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+#submenu:hover .dropdown-menau{
+  display: block !important;
+  margin: 12px;
+
+}
+.dropdown-menau:hover .sub{
+  background-color:hsla(360, 100%, 100%, 0.5);
+}
