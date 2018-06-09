@@ -3551,10 +3551,11 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a {
   display: block;
+  height: 0px;
   /* padding: 3px 20px; */
   clear: both;
   font-weight: normal;
-  line-height: 1.42857143;
+  /* line-height: 1.42857143; */
   color: #333;
   white-space: nowrap;
 }

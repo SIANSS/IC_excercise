@@ -37,3 +37,7 @@
 .dropdown-menau:hover .sub{
   background-color:hsla(360, 100%, 100%, 0.5);
 }
+.stylus-drp-li:focus #stylus-sub{
+  position: relative;
+  border: 2px solid red;
+}
